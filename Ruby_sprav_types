@@ -1,0 +1,23 @@
+Краткая справка по языку Ruby
+
+Типы данных:
+Object
+  NilClass - nil	x=nil; if s == nil
+  TrueClass - true	x=true; if x
+  FalseClass - false	x=false
+  Numeric - числа (Внимание! 3/4*100=0 целое, надо так: 3/4*100.0=0.12 - преобразует в float)
+    Integer - целые	23; -2; 0b1110-двоичное; 0o10-восьмеричное; 0xff-шестнадцатеричное
+    Fixnum - целые числа до 2^30
+    Bignum - целые числа более 2^30
+    Float - числа с плавающей запятой	23.56
+    Complex - комплексные	4+3i
+  Time - время	t = Time.new # 2021-11-11 11:17:24 +0300; Time.now - текущее время
+  Date - дата
+  String - строка s="hello" или s='hello' (лучше в "", т.к. можно вставлять значения "x=#{x}"
+  Range
+  Struct
+  Array - массив a = [1, 2, 5]; x = ["sun", "moon"]; w = [5, "moon", true]; a = Array.new(5)
+  Hash - хэш h = {:a => 3, :b => 8}
+
+
+
