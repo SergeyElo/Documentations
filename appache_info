@@ -1,0 +1,45 @@
+apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor prese>
+     Active: active (running) since Sun 2021-11-14 12:48:30 MSK; 3min 7s ago
+       Docs: https://httpd.apache.org/docs/2.4/
+   Main PID: 34778 (apache2)
+      Tasks: 55 (limit: 9057)
+     Memory: 4.7M
+     CGroup: /system.slice/apache2.service
+             ├─34778 /usr/sbin/apache2 -k start
+             ├─34779 /usr/sbin/apache2 -k start
+             └─34781 /usr/sbin/apache2 -k start
+
+ноя 14 12:48:30 elo-desktop systemd[1]: Starting The Apache HTTP Server...
+ноя 14 12:48:30 elo-desktop apachectl[34776]: AH00558: apache2: Could not relia>
+ноя 14 12:48:30 elo-desktop systemd[1]: Started The Apache HTTP Server.
+
+Узнать IP-адрес своего сервера:
+$hostname - I
+192.168.10.4 
+
+запустить свой веб-сервер - в браузере ввести:
+http://192.168.10.4
+
+Остановить веб-сервер:
+sudo systemctl stop apache2
+
+Чтобы запустить остановленный веб-сервер:
+sudo systemctl start apache2
+
+Если вы просто вносите изменения в конфигурацию, во многих случаях Apache может перезагружаться без отключения соединений. Для этого нужно использовать следующую команду:
+
+sudo systemctl reload apache2
+ 
+По умолчанию Apache настроен на автоматический запуск при загрузке сервера. Если вы не хотите этого, отключите такое поведение с помощью следующей команды:
+sudo systemctl disable apache2
+ 
+Чтобы перезагрузить службу для запуска во время загрузки, введите:
+sudo systemctl enable apache2
+ 
+Теперь Apache должен запуститься автоматически при следующей загрузке сервера.
+
+
+
+
+
