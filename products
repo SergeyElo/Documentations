@@ -1,15 +1,20 @@
-
 Ubuntu 20.04.3 LTS 64-bit
 
 Ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux-gnu]
 
-Rails 5.2.3
+node v10.24.1
+yarn 1.22.15
+sqlite3 3.31.1
+Rails 6.1.4.1
 
 RSpec 3.10
 
 git version 2.25.1
 
-github.com: https://github.com/SergeyElo/ExamplesInRuby && https://github.com/SergeyElo/Documentations
+github.com: 
+https://github.com/SergeyElo/ExamplesInRuby.git
+https://github.com/SergeyElo/Documentations.git
+https://github.com/SergeyElo/BlogRoR.git
 
 
 
