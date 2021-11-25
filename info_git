@@ -1,2 +1,43 @@
-
+old key:
 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
+
+new:
+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
+
+
+1) git pull https://github.com/SergeyElo/ExamlesInRuby.git
+2) copy in Folder GIT new files
+3) git add *   
+     or  
+   git add -A
+4) git commit -m “comment”
+5) git push origin main 
+     or 
+   git push https://github.com/SergeyElo/ExamlesInRuby.git main
+
+
+
+
+git clone https://github.com/SergeyElo/ExamlesInRuby.git
+клонирует репозиторий с github в локальную папку, например, GIT
+
+git remote -v
+просмотр добавленных имен репозиториев
+
+git remote add origin https://github.com/SergeyElo/ExamlesInRuby.git
+добавить имя репозитория - для упрощения работы
+
+git fetch https://github.com/SergeyElo/ExamlesInRuby.git
+забрать изменения из удалённого репозитория в локальный (без слияния)
+
+git pull https://github.com/SergeyElo/ExamlesInRuby.git
+забрать изменения из удалённого репозитория в локальный и слить (merge)
+
+
+
+
+
+
+
+
+
