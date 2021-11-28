@@ -16,5 +16,10 @@ https://github.com/SergeyElo/ExamplesInRuby.git
 https://github.com/SergeyElo/Documentations.git
 https://github.com/SergeyElo/BlogRoR.git
 
-
-
+сброс trial в RubyMine
+1. Зайти в File → Settings → Plugins → Кликнуть на шестерёнку → Manage Plugin Repositories...
+2. Добавить адрес https://plugins.zhile.io и нажать ОК
+3. В поле поиска плагинов ввести IDE Eval Reset и установить плагин → кнопка Install справа
+4. В основном меню кликнуть на Help → Eval Reset → Reset → Yes (обычно в самом низу)
+5. Перезагрузить IDE.
+6. Радоваться новому месяцу
